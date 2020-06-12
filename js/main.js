@@ -1,6 +1,6 @@
 const TRANSITION_END = 'transitionend';
 
-firebase.initializeApp({databaseURL: "https://blog-7c0b7.firebaseio.com"});
+firebase.initializeApp({databaseURL: "https://chat-app-e1e29.firebaseio.com/"});
 
 let database = firebase.database(); //firebase初期化
 let refCount = database.ref('count');

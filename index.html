@@ -3,9 +3,46 @@
   <head>
     <meta charset="utf-8">
     <title>Vote</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
   </head>
   <body>
-    
+    <div class="wrapper">
+      <div class="l-container">
+        <h2 class="title">国民投票</h2>
+        <div class="grid">
+          <div class="grid_inner">
+            <div class="grid__item">
+              <div class="js-post count" data-initial="hatsushi">
+                <p class="count__name js-name-hatsushi">ひかる</p>
+                <p class="count__num js-count js-count-hatsushi">0</p>
+              </div>
+            </div>
+            <div class="grid__item">
+              <div class="js-post count" data-initial="masakuni">
+                <p class="count__name js-name-masakuni">ゆうり</p>
+                <p class="count__num js-count js-count-masakuni">0</p>
+              </div>
+            </div>
+            <div class="grid__item">
+              <div class="js-post count" data-initial="tk">
+                <p class="count__name js-name-tk">たくみ</p>
+                <p class="count__num js-count js-count-tk">0</p>
+              </div>
+            </div>
+            <div class="grid__item">
+              <div class="js-post count" data-initial="kaz">
+                <p class="count__name js-name-kaz">さとし</p>
+                <p class="count__num js-count js-count-kaz">0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layer js-layer dn">
+      <img class="layer__loading js-layer-loading dn" src="https://lig824.github.io/event/public/assets/images/loading.gif" alt="">
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
   </body>
 </html>

@@ -21,7 +21,7 @@
   flex-wrap: wrap;
   margin: -13px; }
 .grid .grid__item {
-  width: 50%;
+  width: 100%;
   padding: 13px; }
 
 .count {
